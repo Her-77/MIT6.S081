@@ -1,0 +1,17 @@
+{
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.enterExec",
+            "sequence": [
+                "repl.action.acceptInput",
+                {
+                    "command": "editor.action.insertSnippet",
+                    "args": {
+                        "snippet": "-exec "
+                    }
+                }
+            ]
+        }
+    ],
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+}
